@@ -8,6 +8,9 @@ import dell3 from "./img/dell3.png"
 import dell4 from "./img/dell4.png"
 import dell5 from "./img/dell5.png"
 import dell6 from "./img/dell6.png"
+import dv1 from "./img/dv1.png"
+import dv2 from "./img/dv2.png"
+import dv3 from "./img/dv3.png"
 import productImage from "./img/file.png"
 import productImage1 from "./img/file1.png"
 import productImage2 from "./img/file2.png"
@@ -191,7 +194,7 @@ function App() {
         </div>
       </div>
 
-      <div className="best-selling part container">
+      <div className="best-selling part1 container">
         <h2>Sản Phẩm Nổi Bật</h2>
         <div className="j-between feature">
           <p className='bold'>Nổi bật <div className="bold-line"></div></p>
@@ -213,6 +216,15 @@ function App() {
             ))}
           </div>
           <div className="button-see-more"><button className='see-more-button'>Xem thêm</button></div> 
+        </div>
+      </div>
+
+      <div className="part2 container">
+        <h2>Dịch Vụ Hỗ Trợ Toàn Diện</h2>
+        <div className="img-group j-between container">
+          <div><img src={dv1} alt="" /></div>
+          <div><img src={dv2} alt="" /></div>
+          <div><img src={dv3} alt="" /></div>
         </div>
       </div>
 

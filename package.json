@@ -46,5 +46,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "homepage": "https://vancattuyen92.github.io/shopdx"
+
 }

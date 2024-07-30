@@ -10,6 +10,12 @@ $main-gray: #c7c7c76c;
 .part {
   margin: 100px auto;
 }
+.part1 {
+  margin: 100px auto 50px auto;
+}
+.part2 {
+  margin: 0px auto 50px auto;
+}
 h2 {
   color: #333 !important;
   font-size: 30px;
@@ -426,5 +432,17 @@ h2 {
       letter-spacing: 1px;
       color: $main-blue;
     }
+  }
+}
+
+///
+.img-group {
+  div {
+    width: 32%;
+  }
+  img {
+    width: 100%;
+    border: 1px solid #1a37855d;
+    border-radius: 10px;
   }
 }
